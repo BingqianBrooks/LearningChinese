@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361F5C1F2A4CE6A100FE3C66 /* ChineseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F5C1E2A4CE6A100FE3C66 /* ChineseApp.swift */; };
+		361F5C212A4CE6A100FE3C66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F5C202A4CE6A100FE3C66 /* ContentView.swift */; };
+		361F5C232A4CE6A300FE3C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361F5C222A4CE6A300FE3C66 /* Assets.xcassets */; };
+		361F5C272A4CE6A300FE3C66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361F5C262A4CE6A300FE3C66 /* Preview Assets.xcassets */; };
+		361F5C2E2A4CE6F100FE3C66 /* chinese.json in Resources */ = {isa = PBXBuildFile; fileRef = 361F5C2D2A4CE6F100FE3C66 /* chinese.json */; };
+		361F5C332A53637600FE3C66 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F5C322A53637600FE3C66 /* ModelData.swift */; };
+		361F5C362A53643F00FE3C66 /* ChineseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F5C352A53643F00FE3C66 /* ChineseWords.swift */; };
+		361F5C382A53680200FE3C66 /* NavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F5C372A53680200FE3C66 /* NavigatorView.swift */; };
+		361F5C3A2A536F6900FE3C66 /* GradeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F5C392A536F6900FE3C66 /* GradeRow.swift */; };
+		361F5C3C2A5B7C0200FE3C66 /* GradeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F5C3B2A5B7C0200FE3C66 /* GradeDetails.swift */; };
+		361F5C3E2A60A84400FE3C66 /* LessonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F5C3D2A60A84400FE3C66 /* LessonDetails.swift */; };
+		361FAEDE2A775D97001A25C0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361FAEDD2A775D97001A25C0 /* Alamofire.framework */; };
+		361FAEEC2A779901001A25C0 /* TransView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361FAEEB2A779901001A25C0 /* TransView.swift */; };
+		3631DBFE2A747F4C009E69FD /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3631DBFD2A747F4C009E69FD /* Translator.swift */; };
+		3631DC032A74815F009E69FD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3631DC022A74815F009E69FD /* Extension.swift */; };
+		367185152A63566E00F37AD8 /* VocabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367185142A63566E00F37AD8 /* VocabButton.swift */; };
+		367185172A678E7700F37AD8 /* FavriateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367185162A678E7700F37AD8 /* FavriateButton.swift */; };
+		367185192A67918B00F37AD8 /* LessonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367185182A67918B00F37AD8 /* LessonRow.swift */; };
+		F9FF45AD4880E6285303D8AB /* Pods_Chinese.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF83E6ACE00725AA61F5A164 /* Pods_Chinese.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DC0C0B2C28EF8BFFD79CA4E /* Pods-Chinese.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chinese.release.xcconfig"; path = "Target Support Files/Pods-Chinese/Pods-Chinese.release.xcconfig"; sourceTree = "<group>"; };
+		361F5C1B2A4CE6A100FE3C66 /* Chinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361F5C1E2A4CE6A100FE3C66 /* ChineseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseApp.swift; sourceTree = "<group>"; };
+		361F5C202A4CE6A100FE3C66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		361F5C222A4CE6A300FE3C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361F5C242A4CE6A300FE3C66 /* Chinese.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chinese.entitlements; sourceTree = "<group>"; };
+		361F5C262A4CE6A300FE3C66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		361F5C2D2A4CE6F100FE3C66 /* chinese.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chinese.json; sourceTree = "<group>"; };
+		361F5C322A53637600FE3C66 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		361F5C352A53643F00FE3C66 /* ChineseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseWords.swift; sourceTree = "<group>"; };
+		361F5C372A53680200FE3C66 /* NavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorView.swift; sourceTree = "<group>"; };
+		361F5C392A536F6900FE3C66 /* GradeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeRow.swift; sourceTree = "<group>"; };
+		361F5C3B2A5B7C0200FE3C66 /* GradeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeDetails.swift; sourceTree = "<group>"; };
+		361F5C3D2A60A84400FE3C66 /* LessonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetails.swift; sourceTree = "<group>"; };
+		361FAEDD2A775D97001A25C0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361FAEEB2A779901001A25C0 /* TransView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransView.swift; sourceTree = "<group>"; };
+		3631DBFD2A747F4C009E69FD /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		3631DC022A74815F009E69FD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		367185142A63566E00F37AD8 /* VocabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabButton.swift; sourceTree = "<group>"; };
+		367185162A678E7700F37AD8 /* FavriateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavriateButton.swift; sourceTree = "<group>"; };
+		367185182A67918B00F37AD8 /* LessonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonRow.swift; sourceTree = "<group>"; };
+		857C5FB31777CA86E74794B6 /* Pods-Chinese.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chinese.debug.xcconfig"; path = "Target Support Files/Pods-Chinese/Pods-Chinese.debug.xcconfig"; sourceTree = "<group>"; };
+		EF83E6ACE00725AA61F5A164 /* Pods_Chinese.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chinese.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361F5C182A4CE6A100FE3C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FF45AD4880E6285303D8AB /* Pods_Chinese.framework in Frameworks */,
+				361FAEDE2A775D97001A25C0 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A59D8F0A548AF0673EFCC2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				361FAEDD2A775D97001A25C0 /* Alamofire.framework */,
+				EF83E6ACE00725AA61F5A164 /* Pods_Chinese.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33D3FF72D0E5F953615AAC11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				857C5FB31777CA86E74794B6 /* Pods-Chinese.debug.xcconfig */,
+				1DC0C0B2C28EF8BFFD79CA4E /* Pods-Chinese.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		361F5C122A4CE6A100FE3C66 = {
+			isa = PBXGroup;
+			children = (
+				361F5C1D2A4CE6A100FE3C66 /* Chinese */,
+				361F5C1C2A4CE6A100FE3C66 /* Products */,
+				33D3FF72D0E5F953615AAC11 /* Pods */,
+				2A59D8F0A548AF0673EFCC2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		361F5C1C2A4CE6A100FE3C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361F5C1B2A4CE6A100FE3C66 /* Chinese.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361F5C1D2A4CE6A100FE3C66 /* Chinese */ = {
+			isa = PBXGroup;
+			children = (
+				361F5C3D2A60A84400FE3C66 /* LessonDetails.swift */,
+				361FAEEB2A779901001A25C0 /* TransView.swift */,
+				361F5C202A4CE6A100FE3C66 /* ContentView.swift */,
+				361F5C372A53680200FE3C66 /* NavigatorView.swift */,
+				361F5C392A536F6900FE3C66 /* GradeRow.swift */,
+				367185182A67918B00F37AD8 /* LessonRow.swift */,
+				367185142A63566E00F37AD8 /* VocabButton.swift */,
+				361F5C3B2A5B7C0200FE3C66 /* GradeDetails.swift */,
+				367185162A678E7700F37AD8 /* FavriateButton.swift */,
+				361F5C1E2A4CE6A100FE3C66 /* ChineseApp.swift */,
+				3631DC042A748164009E69FD /* Translate */,
+				361F5C342A53638100FE3C66 /* Model */,
+				361F5C222A4CE6A300FE3C66 /* Assets.xcassets */,
+				361F5C242A4CE6A300FE3C66 /* Chinese.entitlements */,
+				361F5C312A5362D400FE3C66 /* Resources */,
+				361F5C252A4CE6A300FE3C66 /* Preview Content */,
+			);
+			path = Chinese;
+			sourceTree = "<group>";
+		};
+		361F5C252A4CE6A300FE3C66 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				361F5C262A4CE6A300FE3C66 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		361F5C312A5362D400FE3C66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				361F5C2D2A4CE6F100FE3C66 /* chinese.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		361F5C342A53638100FE3C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				361F5C322A53637600FE3C66 /* ModelData.swift */,
+				361F5C352A53643F00FE3C66 /* ChineseWords.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3631DC042A748164009E69FD /* Translate */ = {
+			isa = PBXGroup;
+			children = (
+				3631DBFD2A747F4C009E69FD /* Translator.swift */,
+				3631DC022A74815F009E69FD /* Extension.swift */,
+			);
+			path = Translate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361F5C1A2A4CE6A100FE3C66 /* Chinese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361F5C2A2A4CE6A300FE3C66 /* Build configuration list for PBXNativeTarget "Chinese" */;
+			buildPhases = (
+				B99E6A04470696EB86F78247 /* [CP] Check Pods Manifest.lock */,
+				361F5C172A4CE6A100FE3C66 /* Sources */,
+				361F5C182A4CE6A100FE3C66 /* Frameworks */,
+				361F5C192A4CE6A100FE3C66 /* Resources */,
+				EBBB5848F1F150EE4573B505 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chinese;
+			productName = Chinese;
+			productReference = 361F5C1B2A4CE6A100FE3C66 /* Chinese.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361F5C132A4CE6A100FE3C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					361F5C1A2A4CE6A100FE3C66 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 361F5C162A4CE6A100FE3C66 /* Build configuration list for PBXProject "Chinese" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361F5C122A4CE6A100FE3C66;
+			productRefGroup = 361F5C1C2A4CE6A100FE3C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361F5C1A2A4CE6A100FE3C66 /* Chinese */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361F5C192A4CE6A100FE3C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361F5C272A4CE6A300FE3C66 /* Preview Assets.xcassets in Resources */,
+				361F5C232A4CE6A300FE3C66 /* Assets.xcassets in Resources */,
+				361F5C2E2A4CE6F100FE3C66 /* chinese.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B99E6A04470696EB86F78247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chinese-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBB5848F1F150EE4573B505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chinese/Pods-Chinese-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chinese/Pods-Chinese-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chinese/Pods-Chinese-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361F5C172A4CE6A100FE3C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361F5C212A4CE6A100FE3C66 /* ContentView.swift in Sources */,
+				361F5C332A53637600FE3C66 /* ModelData.swift in Sources */,
+				367185192A67918B00F37AD8 /* LessonRow.swift in Sources */,
+				361F5C362A53643F00FE3C66 /* ChineseWords.swift in Sources */,
+				367185152A63566E00F37AD8 /* VocabButton.swift in Sources */,
+				361F5C1F2A4CE6A100FE3C66 /* ChineseApp.swift in Sources */,
+				361F5C382A53680200FE3C66 /* NavigatorView.swift in Sources */,
+				3631DBFE2A747F4C009E69FD /* Translator.swift in Sources */,
+				361F5C3E2A60A84400FE3C66 /* LessonDetails.swift in Sources */,
+				3631DC032A74815F009E69FD /* Extension.swift in Sources */,
+				367185172A678E7700F37AD8 /* FavriateButton.swift in Sources */,
+				361F5C3C2A5B7C0200FE3C66 /* GradeDetails.swift in Sources */,
+				361F5C3A2A536F6900FE3C66 /* GradeRow.swift in Sources */,
+				361FAEEC2A779901001A25C0 /* TransView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		361F5C282A4CE6A300FE3C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		361F5C292A4CE6A300FE3C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		361F5C2B2A4CE6A300FE3C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857C5FB31777CA86E74794B6 /* Pods-Chinese.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chinese/Chinese.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chinese/Preview Content\"";
+				DEVELOPMENT_TEAM = J9VWCKZWG8;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brooks.Chinese;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		361F5C2C2A4CE6A300FE3C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC0C0B2C28EF8BFFD79CA4E /* Pods-Chinese.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chinese/Chinese.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chinese/Preview Content\"";
+				DEVELOPMENT_TEAM = J9VWCKZWG8;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brooks.Chinese;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361F5C162A4CE6A100FE3C66 /* Build configuration list for PBXProject "Chinese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361F5C282A4CE6A300FE3C66 /* Debug */,
+				361F5C292A4CE6A300FE3C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361F5C2A2A4CE6A300FE3C66 /* Build configuration list for PBXNativeTarget "Chinese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361F5C2B2A4CE6A300FE3C66 /* Debug */,
+				361F5C2C2A4CE6A300FE3C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361F5C132A4CE6A100FE3C66 /* Project object */;
+}

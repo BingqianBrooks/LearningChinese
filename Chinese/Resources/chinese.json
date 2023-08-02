@@ -1,0 +1,168 @@
+[
+    {
+        "grade": "一年级",
+        "lessons":
+        [
+            {
+                "id": 0,
+                "lesson": "第一课",
+                "word": "天(tiān) 地(dì) 人(rén) 你(nǐ) 我(wǒ) 他(tā)",
+                "phrases": "天地 你我他",
+                "isLesFavorite": true
+            },
+            {
+                "id": 1,
+                "lesson": "第二课",
+                "word": "一(yì) 二(èr) 三(sān) 四(sì) 五(wǔ) 上(shànɡ) 下(xià)",
+                "phrases": "天地 你我他",
+                "isLesFavorite": false
+            }
+        ],
+        "category": "Chinese",
+        "id": 0,
+        "isFavorite": true,
+        "description": "This is my first try..."
+    },
+    {
+        "grade": "二年级",
+        "lessons":
+        [
+            {
+                "id": 0,
+                "lesson": "第一课",
+                "word": "天(tiān) 地(dì) 人(rén) 你(nǐ) 我(wǒ) 他(tā)",
+                "phrases": "天地 你我他",
+                "isLesFavorite": false
+            },
+            {
+                "id": 1,
+                "lesson": "第二课",
+                "word": "一(yì) 二(èr) 三(sān) 四(sì) 五(wǔ) 上(shànɡ) 下(xià)",
+                "phrases": "天地 你我他",
+                "isLesFavorite": false
+            }
+        ],
+        "category": "Chinese",
+        "id": 1,
+        "isFavorite": false,
+        "description": "This is my first try..."
+    },
+    {
+        "grade": "三年级",
+        "lessons":
+        [
+            {
+                "id": 0,
+                "lesson": "第一课: 大自然的声音",
+                "word": "妙（miao） 演（yan） 奏（zou） 敲（qiao） 击（ji） 器（qi） 诉（su）",
+                "phrases": "呢喃细语 雄伟 威力 汹涌澎湃 波澜壮阔 奇妙 美妙 莫名其妙 演唱 演讲 演员 表演 导演 弹奏 伴奏 伟人 伟大 词汇 汇报 聚会 聚精会神 敲门 敲鼓 拳击 攻击 电器 武器 投诉 哭诉 广阔 开阔 海阔天空",
+                "isLesFavorite": false
+            },
+            {
+                "id": 1,
+                "lesson": "第二课：饮湖上初晴后雨，望洞庭",
+                "word": "饮（yin） 初（chu） 蒙（meng） 欲（yu） 庭（ting） 镜（jing） 未（wei） 磨（mo） 抹（mo） 盘（pan）",
+                "phrases": "饮酒 饮料 初中 初雪 启蒙 灰蒙蒙 瞎蒙 蒙古 食欲 摇摇欲坠 涂抹 抹布 法庭 庭院 镜子 眼睛 望远镜 未来 磨难 磨刀 盘子 棋盘",
+                "isLesFavorite": false
+            },
+            {
+                "id": 2,
+                "lesson": "第三课：我爱故乡的杨梅",
+                "word": "雾（wu） 触（chu） 柔（rou） 乎（hu） 染（ran） 饱（bao） 腻（ni） 津（jin） 腐（fu） 略（lve） 陶（tao） 握（wo）",
+                "phrases": "细雨如丝 贪婪 甘露 甜津津 烟雾 喷雾 触摸 触角 柔软 温柔 油腻 细腻 腐烂 腐臭 豆腐 腐竹 豆腐脑儿 腐乳 津津有味 似乎 黑乎乎 染色 传染 饱满 忽略 简略 淘气 陶醉 握手 握拳",
+                "isLesFavorite": false
+            },
+            {
+                "id": 3,
+                "lesson": "第四课：纸托水杯",
+                "word": "睁（zheng） 继（ji） 续（xu） 叹（tan） 凑（cou） 沾（zhan） 够（gou） 盼（pan） 翩（pian） 释（shi） 恍（huang） 悟（wu）",
+                "phrases": "翘首以盼 翩然 抓耳挠腮 索性 七嘴八舌 恍然大悟 镇开 眼睁睁 继续 盼望 左顾右盼 翩翩起舞 解释 爱不释手 叹气 赞叹 凑巧",
+                "isLesFavorite": false
+            },
+            {
+                "id": 4,
+                "lesson": "第五课：",
+                "word": "to be continue...",
+                "phrases": "to be continue...",
+                "isLesFavorite": false
+            }
+        ],
+        "category": "Chinese",
+        "id": 2,
+        "isFavorite": true,
+        "description": "This is my first try..."
+    },
+    {
+        "grade": "四年级",
+        "lessons":
+        [
+            {
+                "id": 0,
+                "lesson": "第一课",
+                "word": "谦(qian) 虚(xu) 德(de) 轰(hong) 彻(che) 赞(zan)",
+                "phrases": "轰动 谦虚 骄傲 浅薄 准确无误 实事求是 拍案叫绝",
+                "isLesFavorite": true
+            },
+            {
+                "id": 1,
+                "lesson": "第二课",
+                "word": "一(yì) 二(èr) 三(sān) 四(sì) 五(wǔ) 上(shànɡ) 下(xià)",
+                "phrases": "轰动 谦虚 骄傲 浅薄 准确无误 实事求是 拍案叫绝",
+                "isLesFavorite": false
+            },
+            {
+                "id": 2,
+                "lesson": "第三课",
+                "word": "一(yì) 二(èr) 三(sān) 四(sì) 五(wǔ) 上(shànɡ) 下(xià)",
+                "phrases": "轰动 谦虚 骄傲 浅薄 准确无误 实事求是 拍案叫绝",
+                "isLesFavorite": false
+            },
+            {
+                "id": 3,
+                "lesson": "第四课",
+                "word": "一(yì) 二(èr) 三(sān) 四(sì) 五(wǔ) 上(shànɡ) 下(xià)",
+                "phrases": "轰动 谦虚 骄傲 浅薄 准确无误 实事求是 拍案叫绝",
+                "isLesFavorite": false
+            },
+            {
+                "id": 4,
+                "lesson": "第五课",
+                "word": "谦（qian） 虚（xu) 徳(de) 轰(hong) 彻(che) 赞(zan) 罗(luo) 庚（geng) 氏(shi) 斯(si) 誉(yu) 薄(zan)",
+                "phrases": "轰动 谦虚 骄傲 浅薄 准确无误 实事求是 拍案叫绝 谦逊 虚心 虚拟 道德 美德 罗列 搜罗 贵庚 年庚 姓氏 摄氏度 轰动 轰炸 彻夜 彻底 赞美 赞成 名誉 信誉 单薄 薄弱 贝斯 斯诺克",
+                "isLesFavorite": true
+            },
+            {
+                "id": 5,
+                "lesson": "第六课",
+                "word": "柄(bing) 顺(shun) 叠(die) 固(gu) 萎(wei) 隙(xi) 须(xu) 逊(xun) 输(shu) 均(jun) 蜗(wo) 曲(qu) 瞧(qiao) 降(xiang) 骚(sao)",
+                "phrases": "均匀 重叠 空隙 蛟龙 痕迹 瞧不起 牢崮 叶柄 手柄 把柄 笑柄 笔顺 顺序 温顺 孝顺 重叠 折叠 平钧 蜗牛 蜗居 牢固 凝固 空隙 缝隙 枯萎 瞧见 瞧不起 萎靡不振 弯曲 扭曲 戏曲 乐曲 投降 降落 逊色 骚人墨客 输赢",
+                "isLesFavorite": true
+            },
+            {
+                "id": 6,
+                "lesson": "第七课",
+                "word": "一(yì) 二(èr) 三(sān) 四(sì) 五(wǔ) 上(shànɡ) 下(xià)",
+                "phrases": "轰动 谦虚 骄傲 浅薄 准确无误 实事求是 拍案叫绝",
+                "isLesFavorite": false
+            },
+            {
+                "id": 7,
+                "lesson": "第八课",
+                "word": "一(yì) 二(èr) 三(sān) 四(sì) 五(wǔ) 上(shànɡ) 下(xià)",
+                "phrases": "轰动 谦虚 骄傲 浅薄 准确无误 实事求是 拍案叫绝",
+                "isLesFavorite": false
+            },
+            {
+                "id": 8,
+                "lesson": "第九课",
+                "word": "一(yì) 二(èr) 三(sān) 四(sì) 五(wǔ) 上(shànɡ) 下(xià)",
+                "phrases": "轰动 谦虚 骄傲 浅薄 准确无误 实事求是 拍案叫绝",
+                "isLesFavorite": false
+            }
+        ],
+        "category": "Chinese",
+        "id": 3,
+        "isFavorite": true,
+        "description": "This is my first try..."
+    },
+]
